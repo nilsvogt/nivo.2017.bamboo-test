@@ -1,0 +1,11 @@
+{
+    "name": "nivo/bamboo.dummy",
+    "description": "a dummy project to get familiar with bamboo",
+    "authors": [
+        {
+            "name": "Nils Vogt",
+            "email": "hello.nils.vogt@googlemail.com"
+        }
+    ],
+    "require": {}
+}
