@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision :shell, path: "box-settings/bootstrap.sh", keep_color: true
   config.vm.network "forwarded_port", guest: 80,    host: 8081
   config.vm.network "forwarded_port", guest: 3306,  host: 33307
-  config.vm.network "private_network", ip: "111.111.11.11"
+  config.vm.network "private_network", ip: "111.111.11.12"
   config.vm.synced_folder './', '/home/vagrant/code', nfs: true
   config.vm.provider "virtualbox" do |v|
     v.gui = false
